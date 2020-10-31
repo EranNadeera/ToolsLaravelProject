@@ -27,3 +27,6 @@ Route::get('/contact','pagesContoller@contact');
 Route::get('/addtool', function () {
     return view('addtool');
 });
+Route::get('/temp', function () {
+    return view('temp');
+});
