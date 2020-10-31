@@ -8,7 +8,7 @@ class pagesContoller extends Controller
 {
     
     public function index(){
-        return view('home');
+        return view('index');
     }
 
     public function shop(){
@@ -21,7 +21,12 @@ class pagesContoller extends Controller
     public function contact(){
         return view('contact');
     }
-    // public function addtool(){
-    //     return view('addtool');
-    // }
+
+    public function CustDashboard(){
+        return view('dashboard');
+    }
+
+    public function AdminDashboard(){
+        return view('ad-dashboard');
+    }
 }
