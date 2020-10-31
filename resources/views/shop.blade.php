@@ -148,28 +148,6 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="single-new-arrival mb-50 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                             <div class="popular-img">
-                                <img src="{{ asset('frontend/assets/img/gallery/Items2.jpg') }}" alt="">
-                                <div class="favorit-items">
-                                    <!-- <span class="flaticon-heart"></span> -->
-                                    <img src="{{ asset('frontend/assets/img/gallery/favorit-card.png') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="popular-caption">
-                                <h3><a href="product_details.html">Knitted Jumper</a></h3>
-                                <div class="rating mb-10">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <span>$ 30.00</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-new-arrival mb-50 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                            <div class="popular-img">
                                 <img src="{{ asset('frontend/assets/img/gallery/Tool2.jpg') }}" alt="">
                                 <div class="favorit-items">
                                     <!-- <span class="flaticon-heart"></span> -->
@@ -177,15 +155,21 @@
                                 </div>
                             </div>
                             <div class="popular-caption">
-                                <h3><a href="product_details.html">Knitted Jumper</a></h3>
-                                <div class="rating mb-10">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+                                <h3><a href="#">Category 3</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-new-arrival mb-50 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                            <div class="popular-img">
+                                <img src="{{ asset('frontend/assets/img/gallery/Tool4.jpg') }}" alt="">
+                                <div class="favorit-items">
+                                    <!-- <span class="flaticon-heart"></span> -->
+                                    <img src="{{ asset('frontend/assets/img/gallery/favorit-card.png') }}" alt="">
                                 </div>
-                                <span>$ 30.00</span>
+                            </div>
+                            <div class="popular-caption">
+                                <h3><a href="#">Category 4</a></h3>
                             </div>
                         </div>
                     </div>
