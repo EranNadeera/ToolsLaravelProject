@@ -27,6 +27,6 @@ class pagesContoller extends Controller
     }
 
     public function AdminDashboard(){
-        return view('ad-dashboard');
+        return view('ad-dashboard-orderManage');
     }
 }

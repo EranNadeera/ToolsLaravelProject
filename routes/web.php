@@ -23,12 +23,15 @@ Route::get('/back', function () {
     return view('back');
 });
 
-Route::get('/','pagesContoller@index');
+Route::get('/','pagesContoller@index')->name('home');
 Route::get('/shop','pagesContoller@shop');
 Route::get('/about','pagesContoller@about');
 Route::get('/contact','pagesContoller@contact');
 Route::get('/dashboard','pagesContoller@CustDashboard');
-Route::get('/ad-dashboard','pagesContoller@adminDashboard');
+Route::get('/ad-dashboard','pagesContoller@adminDashboard')->middleware('admin');
+Route::get('/ad-dashboard','OrderController@retrive');
+
+
 
 
 // Route::get('/addtool','pagesController@addtool');
