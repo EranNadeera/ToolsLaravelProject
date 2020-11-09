@@ -1,4 +1,4 @@
-*<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -164,32 +164,29 @@
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-clipboard"></i>
               <p>
-                Dashboard
-                <i class="right fas fa-angle-left"></i>
+                Order Manage
               </p>
             </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="./index.html" class="nav-link active">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v1</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v2</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v3</p>
-                </a>
-              </li>
-            </ul>
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-box-open"> </i>
+              <p>
+                 Product Manage 
+              </p>
+            </a>
+            <a href="#" class="nav-link ">
+              <i class="nav-icon fas fa-user-friends"></i>
+              <p>
+                User Manage
+              </p>
+            </a>
+            <a href="#" class="nav-link ">
+              <i class="nav-icon fas fa-user-circle"></i>
+              <p>
+                Contact
+              </p>
+            </a>
           </li>
       </nav>
       <!-- /.sidebar-menu -->
@@ -248,7 +245,7 @@
 <!-- <script src="plugins/jquery-knob/jquery.knob.min.js"></script> -->
 <!-- daterangepicker -->
 <!-- <script src="plugins/moment/moment.min.js"></script> -->
-<!-- <script src="plugins/daterangepicker/daterangepicker.js"></script> -->
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
 <!-- Tempusdominus Bootstrap 4 -->
 <script src="{{ asset('backend/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
 <!-- Summernote -->
@@ -261,5 +258,7 @@
 <script src="{{ asset('backend/dist/js/pages/dashboard.js') }}"></script>
 <!-- AdminLTE for demo purposes -->
 <!-- <script src="dist/js/demo.js"></script> -->
+
+<script>$('[data-widget="pushmenu"]').PushMenu('toggle')</script>
 </body>
 </html>

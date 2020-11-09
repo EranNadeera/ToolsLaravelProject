@@ -14,13 +14,11 @@ class CreateToolsTable extends Migration
     public function up()
     {
         Schema::create('tools', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('toolname');
-            $table->string('category');
-            $table->integer('rentcost');
-            
-            $table->longText('description');
-            
+            $table->id('tool_id');
+            $table->decimal('price', 5, 2)->nullable()->default(123.45);
+            $table->integer('qty')->unsigned()->nullable()->default(12);
+            $table->string('tool_category', 100)->nullable()->default('text');
+            $table->string('tool_name', 100)->nullable()->default('text');
             $table->timestamps();
         });
     }
